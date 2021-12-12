@@ -1,0 +1,163 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+a {
+   color: #fff;
+   font-size: 16px;
+}
+
+a:hover {
+   color: #8ecae6;
+	transition: 0.3s;
+}
+
+body {
+   background-color: #161a1d;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+img {
+   max-width: 90px;
+   border-radius: 15px;
+}
+
+.content {
+   font-family: Work Sans;
+   font-weight: 400;
+}
+
+.link__cv {
+   font-size: 22px;
+}
+
+.intro__text {
+   text-align: center;
+   font-size: 22px;
+}
+
+.first-child {
+   font-weight: 700;
+   font-size: 35px;
+   color: #8ecae6;
+   margin: 100px 0px 0px 0px;
+}
+
+.second-child {
+   margin: 15px 0px 0px 0px;
+}
+
+.last-child {
+   margin: 15px 0px 0px 0px;
+}
+
+.contacts__text {
+   font-size: 14px;
+   margin: 0px 10px 0px 0px;
+}
+
+.highlight {
+   background-color: #333;
+   font-weight: 700;
+	color: #fb8500;
+}
+
+.highlight-red {
+   font-weight: 700;
+   background-color: red;
+   font-size: 22px;
+}
+
+.highlight-red:hover {
+   background-color: rgb(163, 23, 23);
+	transition: 0.3s;
+}
+
+a.highlight-red:hover {
+   color: #fff;
+}
+
+.contacts {
+   display: flex;
+   margin: 100px 0px 0px 400px;
+}
+
+.contacts__img {
+   margin: 0px 15px 0px 0px;
+}
+
+.contacts__content {
+   display: flex;
+   flex-direction: column;
+}
+
+.contacts__github {
+   display: inline-flex;
+}
+.contacts__text {
+   margin: 0px 0px 0px 0px;
+   padding: 0px 21px 0px 0px
+}
+.contacts__skype {
+   display: inline-flex;
+   margin: 7px 0px 0px 0px;
+}
+
+.contacts__zoom {
+   display: inline-flex;
+   margin: 5px 0px 0px 0px;
+}
+
+.contacts__email {
+   display: inline-flex;
+   margin: 5px 0px 0px 0px;
+}
+
+.contacts__link {
+ padding: 0px 0px 0px 2px;
+}
+
+.contacts__linkedin {
+   display: inline-flex;
+   margin: 5px 0px 0px 0px;
+   font-size: 14px;
+}
+
+.contacts__text-first {
+   font-size: 14px;
+   padding: 0px 25px 0px 0px;
+}
+
+.contacts__text-second {
+   font-size: 14px;
+   padding: 0px 14px 0px 0px;
+}
+
+@media (min-width: 1920px){
+   .contacts {
+      margin: 100px 0px 0px 0px;
+      justify-content: center;
+   }
+}
+
+@media (max-width: 1400px){
+   .contacts {
+      margin: 100px 0px 0px 500px;
+   }
+}
+
+@media (max-width: 900px){
+   .contacts {
+      margin: 100px 0px 0px 0px;
+      justify-content: center;
+   }
+}
+
+@media (min-width: 320px){
+   body {
+      margin: 0 10px;
+   }
+}
